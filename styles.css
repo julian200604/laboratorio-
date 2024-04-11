@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+body{
+	background-size: cover;
+	
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3{
+	text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav{
+	max-width: 100%;
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+
+}
+.menu-horizontal > li:hover{
+	background-color: rgb(38, 191, 230);
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+/*Banner*/
+
+.banner {
+    background-image: url("img/fondo.png");
+    background-repeat: repeat;
+    background-position: center;
+}
+  
+.banner h1 {
+    /* Esta línea selecciona todos los encabezados de nivel 1 (h1) dentro de los elementos con la clase banner. */
+    font-size: 24px;
+    /* Establece el tamaño de fuente de los encabezados seleccionados a 24px. */
+    margin-top: 0;
+    /* Elimina el margen superior de los encabezados seleccionados. */
+}
+  
+.banner h2 {
+    /* Esta línea selecciona todos los encabezados de nivel 2 (h2) dentro de los elementos con la clase banner. */
+    font-size: 18px;
+    /* Establece el tamaño de fuente de los encabezados seleccionados a 18px. */
+    margin-bottom: 0;
+    /* Elimina el margen inferior de los encabezados seleccionados. */
+}
+  
+.menu-horizontal {
+    /* Esta línea selecciona todos los elementos con la clase menu-horizontal. */
+    margin-top: 20px;
+    /* Agrega un margen superior de 20px a los elementos seleccionados. */
+}
